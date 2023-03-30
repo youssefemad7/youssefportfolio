@@ -6,6 +6,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Sidenav from './Sidenav';
+import Navbar from './Navbar';
 
 
 
@@ -21,6 +22,7 @@ function App() {
     <>
 
         <BrowserRouter>
+        {/* <Navbar /> */}
         <Sidenav />
 
 

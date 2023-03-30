@@ -25,11 +25,14 @@
 
 
 /* Start Navbar */
+
+
+ 
+
 .sidenav div
 {
  
 font-size: 25px;
-/* position: absolute; */
 width: 100px;
 overflow-x: hidden;
 
@@ -53,22 +56,6 @@ overflow-x: hidden;
   
 
 }
-/* .divicon h1
-{
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 0;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 500;
-  transition: all .3s;
-  border-radius: 30px;
-  text-transform: uppercase;
-  padding: 0 25px 0 30px;
-  height: 50px;
-} */
 
 
 .sidenav h2 
@@ -84,9 +71,7 @@ overflow-x: hidden;
   transition: all .3s;
   border-radius: 20px;
   text-decoration: none;
-  /* text-transform: uppercase; */
-  /* padding: 0px 25px 0px 0px; */
-  /* height: 50px; */
+ 
 }
 .sidenav  .sidenav1:hover h2 
 {
@@ -173,11 +158,11 @@ overflow-x: hidden;
   padding-left: 60px;
   padding-right: 10px;
   position: absolute;
-}
+} 
 
 
 /*  Start Mediaquery of side nav */
-@media (min-width: 250px) and (max-width: 399px){
+ @media (min-width: 250px) and (max-width: 399px){
   .sidenav h2 
 {
   z-index: -1;
@@ -191,9 +176,7 @@ overflow-x: hidden;
   transition: all .3s;
   border-radius: 20px;
   text-decoration: none;
-  /* text-transform: uppercase; */
-  /* padding: 0px 25px 0px 0px; */
-  /* height: 50px; */
+  
 }
 .sidenav  .sidenav1:hover h2 
 {
@@ -308,9 +291,7 @@ overflow-x: hidden;
   transition: all .3s;
   border-radius: 20px;
   text-decoration: none;
-  /* text-transform: uppercase; */
-  /* padding: 0px 25px 0px 0px; */
-  /* height: 50px; */
+
 }
 .sidenav  .sidenav1:hover h2 
 {
@@ -403,7 +384,7 @@ overflow-x: hidden;
   margin-left: 30px;
 }
 
-}
+} 
 /* End Mediaquery of side nav */
 
 
@@ -1019,12 +1000,20 @@ margin-right: 70px;
 
 /* small */
 @media (min-width: 250px) and (max-width: 399px){
- 
+  .spanhome
+  {
+   font-size: 12px;
+    
+  }
   .img1
   {
-    display: none;
-      
+      width: 300px;
+      position: relative;
+      left: -105%;
+    
   }
+ 
+  
   .div1
   {
     background-color: black;
@@ -1086,6 +1075,10 @@ margin-left: 10% ;
 {
   margin-left: 500px;
 }
+.sec1about span 
+  {
+    font-size: 20px;
+  }
 /* port */
 .secport span
 {
@@ -1114,11 +1107,18 @@ margin-left: 10% ;
   /* medium */
   @media (min-width: 400px) and (max-width: 500px){
  
-    .img1
-  {
-    display: none;
+    .spanhome
+    {
+     font-size: 11px;
       
-  }
+    }
+    .img1
+    {
+        width: 300px;
+        position: relative;
+        left: -80%;
+      
+    }
   .div1
   {
     background-color: black;
@@ -1155,6 +1155,10 @@ margin-left: 10% ;
   }
     
   /* About  */
+  .sec1about span 
+  {
+    font-size: 20px;
+  }
  .div2about 
  {
 margin-left: 10% ;
@@ -1212,8 +1216,10 @@ margin-left: 10% ;
  
       .img1
   {
-    display: none;
-      
+      width: 550px;
+      position: relative;
+      left: -60%;
+    
   }
   .div1
   {
@@ -1250,12 +1256,21 @@ margin-left: 10% ;
     margin-bottom: -10px;
   }
   /* About */
+  .sec1about span 
+  {
+    font-size: 20px;
+  }
   .sec12about div
   {  padding-right:350px;
     padding-left: 100px;
 
     
-    }
+  }
+  .sec1about button 
+  {
+    margin-left: 200px;
+  }
+
 .div2about div 
 {
   width: 270px;
@@ -1329,6 +1344,7 @@ margin-left: 10% ;
         }
         
          /* about */
+        
   .div2about 
   {
 margin-left: 10% ;
@@ -1353,12 +1369,12 @@ margin-left: 10% ;
 
 .sec1about h4
 {
-  margin-left: -50px;
+  margin-left: -80px;
 
 }
 .div1about 
 {
-  margin-left: -50px;
+  margin-left: -80px;
 }
 .div3about
 {

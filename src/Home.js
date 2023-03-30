@@ -81,7 +81,7 @@ function Home() {
        
             </div>
             <Link to="/About">       
-              <button class="btn-13"><span>More About Me</span></button>
+              <button class="btn-13"><span className='spanhome'>More About Me</span></button>
             </Link>
 
 

@@ -281,6 +281,10 @@ overflow-x: hidden;
   padding-right: 10px;
   position: absolute;
 }
+.sidenav button
+{
+  margin-left: 30px;
+}
 
 }
 
@@ -393,6 +397,10 @@ overflow-x: hidden;
   padding-left: 60px;
   padding-right: 10px;
   position: absolute;
+}
+.sidenav button
+{
+  margin-left: 30px;
 }
 
 }

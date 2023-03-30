@@ -1,38 +1,1176 @@
-.App {
-  text-align: center;
+/* Scrool */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Track */
+::-webkit-scrollbar-track { 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3b71ca; 
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+
+
+
+
+
+/* Start Navbar */
+.sidenav div
+{
+ 
+font-size: 25px;
+/* position: absolute; */
+width: 100px;
+overflow-x: hidden;
+
+
+
+
+}
+.icon2
+{
+  margin-top: 50px;
+  color: white;
+  background-color: #3b71ca;
+  border-radius: 20px;
+  padding: 15px 0px 10px 10px;
+  padding-right: 17px;
+  position: relative;
+  right: 10px;
+  top: 100px;
+  z-index: 555555;
+  
+  
+
+}
+/* .divicon h1
+{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 500;
+  transition: all .3s;
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 0 25px 0 30px;
+  height: 50px;
+} */
+
+
+.sidenav h2 
+{
+  z-index: -1;
+  position: absolute;
+  top: 174px;
+  right:73px;
+  opacity: 0;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 500;
+  transition: all .3s;
+  border-radius: 20px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* padding: 0px 25px 0px 0px; */
+  /* height: 50px; */
+}
+.sidenav  .sidenav1:hover h2 
+{
+  opacity: 1;
+  z-index: 555;
+  background-color: #3b71ca;
+  transition: all .5s ease;
+  padding-left: 30px;
+  padding-right: 5px;
+  position: absolute;
+
+}
+.sidenav h3 
+{
+  z-index: -1;
+  position: absolute;
+  top: 290px;
+  right:73px;
+  opacity: 0;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 500;
+  transition: all .3s;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+.sidenav  .sidenav1:hover h3 
+{
+  opacity: 1;
+  z-index: 555;
+  background-color: #3b71ca;
+  transition: all .5s ease;
+  padding-left: 30px;
+  padding-right: 22px;
+  position: absolute;
+}
+.sidenav h4 
+{
+  z-index: -1;
+  position: absolute;
+  top: 406px;
+  right:73px;
+  opacity: 0;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 500;
+  transition: all .3s;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+.sidenav  .sidenav1:hover h4 
+{
+  opacity: 1;
+  z-index: 555;
+  background-color: #3b71ca;
+  transition: all .5s ease;
+  padding-left: 35px;
+  padding-right: 0px;
+  position: absolute;
+}
+.sidenav h5 
+{
+  z-index: -1;
+  position: absolute;
+  top: 522px;
+  right:73px;
+  opacity: 0;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 500;
+  transition: all .3s;
+  border-radius: 20px;
+  text-decoration: none;
+
+}
+.sidenav  .sidenav1:hover h5
+{
+  opacity: 1;
+  z-index: 555;
+  background-color: #3b71ca;
+  transition: all .5s ease;
+  padding-left: 60px;
+  padding-right: 10px;
+  position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+
+/* End Navbar */
+/* Start Home */
+
+.img1 
+{
+    width: 400px;
+    margin: 15px;
+    position: relative;
+    left: 15%;
+    top: 45px;
+
+}
+.sec1 div
+{
+    align-items: center;
+}
+.sec1 h3 
+{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+
+.span1
+{
+    color: #3b71ca;
+    font-size: 45px;
+    font-weight:bold;
+
+}
+
+.icon1 
+{
+background-color: black; 
+   color: #fff;
+    font-size: 35px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.div1
+{
+  background-color: #3b71ca;
+    position: relative;
+    left: 328px;
+    height: 713px;
+    width: 550px;
+    
+}
+.div2
+{
+    margin-bottom: 75px;
+    position: relative;
+    left: 15%;
+}
+
+/* Button */
+.btn-13,
+.btn-13 *,
+.btn-13 :after,
+.btn-13 :before,
+.btn-13:after,
+.btn-13:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-13 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-13:disabled {
+  cursor: default;
+}
+.btn-13:-moz-focusring {
+  outline: auto;
+}
+.btn-13 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-13 [hidden] {
+  display: none;
+}
+.btn-13 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+.btn-13 span {
+  mix-blend-mode: difference;
+  position: relative;
+  z-index: 1;
+}
+.btn-13:after,
+.btn-13:before {
+  background: #fff;
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(var(--progress, 0%) / 2),
+    0 calc(var(--progress, 0%) / 2),
+    0 0,
+    0 calc(100% - var(--progress, 0%) / 2),
+    100% calc(100% - var(--progress, 0%) / 2),
+    100% 100%,
+    0 100%,
+    0 calc(100% - var(--progress, 0%) / 2)
+  );
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(var(--progress, 0%) / 2),
+    0 calc(var(--progress, 0%) / 2),
+    0 0,
+    0 calc(100% - var(--progress, 0%) / 2),
+    100% calc(100% - var(--progress, 0%) / 2),
+    100% 100%,
+    0 100%,
+    0 calc(100% - var(--progress, 0%) / 2)
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateX(calc(100% - var(--progress, 0%) / 1.99));
+  transition: transform 0.2s ease, -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, transform 0.2s ease;
+  transition: clip-path 0.2s ease, transform 0.2s ease,
+    -webkit-clip-path 0.2s ease;
+}
+.btn-13:after {
+  transform: translateX(calc(-100% + var(--progress, 0%) / 1.99));
+}
+.btn-13:hover {
+  --progress: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* About */
+.sec1about h1 
+{
+margin-right: 150px;
+font-size: 60px;
+color: white;
+}
+.sec1about h6
+{
+color: darkgray;
+margin-bottom: 25px;
+margin-right: 70px;
+} 
+.sec1about span
+{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.spanabout
+{
+  margin-left:20px;
+} 
+.sec1about
+{
+  margin-top: 100px;
+  margin-left: 170px;
+  color: white;
+  z-index: 6555;
+
+}
+.sec1about div
+{
+  margin-bottom: 25px;
+}
+.div2about div
+{
+  border: 1px solid rgb(91, 90, 90);
+  padding: 15px 5px 25px 80px;
+  margin-right: 25px;
+  position: relative;
+  right:10%;
+}
+.div2about h3 
+{
+  font-size: 48px;
+  color: #3b71ca;
+  font-weight: bold;
+}
+/* sec2about */
+.sec2about div 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sec2about img
+{
+  width: 150px;
+  border: 10px solid #3b71ca;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-top: 100px;
+
 }
+.sec2about h2 
+{
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.brabout
+{
+  position: relative;
+  left: 30%;
+}
+/* End About */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Portfolio */
+.secport
+{
+  margin-left: 100px;
+}
+.secport h1 ,span
+{
+  margin-right: 40px;
+}
+.secport div
+{
+  display: flex;
+}
+.secport img
+{
+  width: 350px;
+  height: 220px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.secport h1
+{
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.secport span
+{
+  color: #3b71ca;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.iconport
+{
+  font-size: 40px;
+  color: black;
+  margin-right:40px;
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.con {
+  position: relative;
+  width: 350px;
+  margin-right: 40px;
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 70%;
+  left: 11.5%;
+
+  right: 0;
+  background-color: #3b71ca;
+  overflow: hidden;
+  width: 350px;
+  height:0;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+.con:hover .overlay {
+  bottom: 40px;
+  height:220px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* End Portfolio */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Contact  */
+.homesec6 {
+  background-color: #070707;
+  padding: 100px;
+  margin-left: 100px;
+
+}
+
+.homesec6 h3 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+
+}
+.homesec6 span 
+{
+  color: #3b71ca;
+}
+
+.homesec6 p {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: left;
+}
+
+.homesec6 p span {
+  color: #3b71ca;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.homesec6 form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  direction: ltr;
+
+}
+
+.homesec6 form input,
+.homesec6 form textarea,
+.homesec6 form select {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 60px;
+  padding: 10px 16px;
+  outline: none;
+  border: none;
+  color: white;
+  background: #252525;
+  margin-right: 10px;
+}
+
+.homesec6 form input::placeholder,
+.homesec6 form textarea::placeholder {
+  color: rgb(223, 222, 222);
+  font-size: 20px;
+  text-align: left;
+  padding: 20px;
+  /* height: 500px; */
+}
+
+.homesec6 button {
+
+  display: inline-block;
+  background-color: #3b71ca;
+  backdrop-filter: blur(3px);
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 1%;
+  margin: 10px 0;
+  width: 250px;
+  font-size: 18px;
+  margin: 20px 0;
+  
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.homesec6 button:hover {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small */
+@media (min-width: 250px) and (max-width: 399px){
+ 
+  .img1
+  {
+    display: none;
+      
+  }
+  .div1
+  {
+    background-color: black;
+
+  }
+  .sec1
+  {
+    overflow-x: hidden;
+    margin-right: 35px;
+  }
+  .div2 .App h3,h1, .span1 ,span
+  {
+    font-size: 30px;
+
+  }
+  .div2 .App .span1 
+  {
+    margin-left: 0px;
+  }
+  .div2 .App span 
+  {
+    margin-left: 37px;
+  }
+  .sec1 button
+  {
+  font-size: 0px;
+  margin-right:40px;
+  
+  }
+  .icon2
+  {
+    /* background-color: none; */
+    margin-bottom: -10px;
+  }
+  /* about */
+  .div2about 
+  {
+margin-left: 10% ;
+}
+.div2about div 
+{
+  width: 270px;
+  font-size: 20px; 
+    padding-right: 350px;
+    padding-left: 250px;
+
+
+}
+.spanabout
+{
+  font-size: 60px;
+  
+}
+.sec1about h1 
+{
+  margin-left: 500px;
+}
+.sec2about
+{
+  margin-left: 500px;
+}
+/* port */
+.secport span
+{
+  font-size: 50px;
+  
+}
+.secport h1 
+{
+  margin-left: 650px;
+}
+/* contact */
+.homesec6 form 
+{
+  width: 350px;
+}
+  }
+  /* medium */
+  @media (min-width: 400px) and (max-width: 500px){
+ 
+    .img1
+  {
+    display: none;
+      
+  }
+  .div1
+  {
+    background-color: black;
+
+  }
+  .sec1
+  {
+    overflow-x: hidden;
+    margin-right: 35px;
+  }
+  .div2 .App h3,h1, .span1 ,span
+  {
+    font-size: 30px;
+
+  }
+  .div2 .App .span1 
+  {
+    margin-left: 0px;
+  }
+  .div2 .App span 
+  {
+    margin-left: 37px;
+  }
+  .sec1 button
+  {
+  font-size: 0px;
+  margin-right:100px;
+  
+  }
+  .icon2
+  {
+    /* background-color: none; */
+    margin-bottom: -10px;
+  }
+    
+  /* About  */
+ .div2about 
+ {
+margin-left: 10% ;
+}
+.div2about div 
+{
+ width: 270px;
+ font-size: 20px; 
+   padding-right: 350px;
+   padding-left: 250px;
+
+
+}
+.spanabout
+{
+ font-size: 60px;
+ 
+}
+.sec1about h1 
+{
+ margin-left: 500px;
+}
+.sec2about
+{
+ margin-left: 500px;
+}
+  
+
+/* port */
+.secport span
+{
+  font-size: 50px;
+  
+}
+.secport h1 
+{
+  margin-left: 650px;
+}
+/* contact */
+.homesec6 form 
+{
+  width: 500px;
+}
+    }
+    /* 501-800 */
+    @media (min-width: 501px) and (max-width: 769px){
+ 
+      .img1
+  {
+    display: none;
+      
+  }
+  .div1
+  {
+    background-color: black;
+
+  }
+  .sec1
+  {
+    overflow: hidden;
+    margin-right: 35px;
+  }
+  .div2 .App h3,h1, .span1 ,span
+  {
+    font-size: 30px;
+
+  }
+  .div2 .App .span1 
+  {
+    margin-left: 0px;
+  }
+  .div2 .App span 
+  {
+    margin-left: 37px;
+  }
+  .sec1 button
+  {
+  font-size: 0px;
+  margin-right:100px;
+  
+  }
+  .icon2
+  {
+    /* background-color: none; */
+    margin-bottom: -10px;
+  }
+  /* About */
+  .sec12about div
+  {  padding-right:350px;
+    padding-left: 100px;
+
+    
+    }
+.div2about div 
+{
+  width: 270px;
+  font-size: 20px; 
+
+}
+.spanabout
+{
+  font-size: 60px;
+  
+}
+.sec1about h1 
+{
+  margin-left: 400px;
+}
+.sec2about
+{
+  margin-left: 500px;
+}
+/* port */
+.secport span
+{
+  font-size: 50px;
+  
+}
+.secport h1 
+{
+  margin-left: 650px;
+}
+/* contact */
+.homesec6 form 
+{
+  width: 600px;
+}
+  
+      
+      }
+      
+      /* 801-999 */
+      @media (min-width: 770px) and (max-width: 900px){
+ 
+        .img1
+        {
+          
+            
+        }
+        .div1
+        {
+          width: 150px;
+          position: relative;
+          left: 15%;
+        }
+        .div2
+        {
+          text-align: center;
+          width: 550px;
+          position: relative;
+          left: 40%;
+        }
+        .icon2
+        {
+          margin-bottom: -10px;
+        }
+        
+         /* about */
+  .div2about 
+  {
+margin-left: 10% ;
+}
+.div2about div 
+{
+  width: 270px;
+  font-size: 20px; 
+ 
+
+
+}
+.spanabout
+{
+  font-size: 60px;
+  
+}
+.sec1about h1 
+{
+  margin-left: 500px;
+}
+
+.sec1about h4
+{
+  margin-left: -50px;
+
+}
+.div1about 
+{
+  margin-left: -50px;
+}
+.div3about
+{
+  margin-left: -60px;
+}
+/* port */
+.secport span
+{
+  font-size: 50px;
+  
+}
+.secport h1 
+{
+  margin-left: 650px;
+}
+/* contact */
+.homesec6 form 
+{
+  width: 450px;
+  margin-left: 170px;
+}
+.homesec61 div
+{
+  margin-left: -30px;
+}
+      }
+
+        /* special case */
+        @media (min-width: 900px) and (max-width: 990px){
+          .div1
+          {
+            width: 150px;
+            position: relative;
+            left: 15%;
+          }
+          .div2
+          {
+            /* text-align: center; */
+            max-width: 550px;
+            position: relative;
+            left: 40%;
+          }
+          /* about */
+          .sec12about div
+      {
+      padding-right: 11px;
+      padding-left: 15px;
+      }
+      .sec1about h4
+      {
+        margin-left: -70px;
+
+      }
+      .div1about 
+      {
+        margin-left: -70px;
+      }
+      .div3about
+      {
+        margin-left: -60px;
+      }
+      .sec2about
+      {
+        padding-left: 100px;
+      }
+        
+        }
+
+
+
+    /* Large */
+    @media (min-width: 991px) and (max-width: 1120px){
+    .sec12about div
+      {
+      padding-right: 11px;
+      padding-left: 15px;
+      }
+      .sec1about h4
+      {
+        margin-left: -50px;
+
+      }
+      .div1about 
+      {
+        margin-left: -50px;
+      }
+      .div3about
+      {
+        margin-left: -60px;
+      }
+      .sec2about
+      {
+        padding-left: 100px;
+      }
+      /* port */
+      .secport span
+{
+  font-size: 50px;
+  
+}
+.secport h1 
+{
+  margin-left: 420px;
+}
+/* contact */
+.homesec6 form 
+{
+  width: 450px;
+  margin-left: 170px;
+}
+.homesec61 div
+{
+  margin-left: -30px;
+}
+      }
+      /* 1121-1200 */
+      @media (min-width: 1121px) and (max-width: 1200px){
+
+        .secport span
+        {
+          font-size: 50px;
+          
+        }
+        .secport h1 
+        {
+          margin-left: 250px;
+        }
+
+        }
+        /* XL */
+        @media (min-width:1300px) {
+          .img1
+          {
+            
+              
+          }
+        
+
+        }
+

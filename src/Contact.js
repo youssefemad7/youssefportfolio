@@ -38,11 +38,11 @@ const Contact = () => {
 
             </a>
             <a href='https://www.linkedin.com/in/youssef-emad-2a69a5266'  target='blank'>
-            <FontAwesomeIcon icon={faLinkedin} className='icon1' />
+            <FontAwesomeIcon icon={faLinkedin} className='icon1 ms-5' />
 
             </a>
             <a href=' https://github.com/youssefemad7'  target='blank'>
-            <FontAwesomeIcon icon={faGithub} className='icon1'/>
+            <FontAwesomeIcon icon={faGithub} className='icon1 ms-5'/>
             
 
             </a>

@@ -41,7 +41,7 @@ function Home() {
         <Row>
         
           
-          <Col lg={5} md={4} sm={12} xs={12} className='div2'>
+          <Col xl={7} lg={6} md={4} sm={12} xs={12} className='div2'>
            
           <div className='App'>
          
@@ -87,7 +87,7 @@ function Home() {
 
 
            </Col>
-           <Col lg={7} md={8} sm={12} xs={12} className="div1 " style={{width:'550px'}}>
+           <Col xl={5} lg={6} md={8} sm={12} xs={12} className="div1 " style={{width:'450px'}}>
             <div>
             <img src="/images/1a8317f5-b9dc-4041-b2d6-3f30c51cf4d4.jpg" alt=""  className='img1'  />
 

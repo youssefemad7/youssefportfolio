@@ -22,8 +22,8 @@ function App() {
     <>
 
         <BrowserRouter>
-        {/* <Navbar /> */}
-        <Sidenav />
+        <Navbar />
+        {/* <Sidenav /> */}
 
 
         

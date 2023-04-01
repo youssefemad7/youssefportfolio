@@ -20,16 +20,89 @@
 
 
 
-
-
-
-
 /* Start Navbar */
+.navv 
+{
+  background-color: #3b71ca;
+}
 
+.navv div 
+{
+  justify-content: space-around;
+  margin-left: 75px;
+  background-color: #3b71ca;
+
+}
+.navlinks ul
+{
+  background-color: #3b71ca;
+}
+.h2nav
+{
+  color: white;
+}
+.icon2
+{
+  margin-right: 200px;
+  font-size: 30px;
+  color: white;  
+}
+  @media (min-width: 250px) {
+    .h2nav
+    {
+      margin-top: 20px;
+    }
+    .icon2
+{
+  margin-top: 10px;
+}
+}
+@media (min-width: 990px) and (max-width: 1000px) {
+  .navv 
+{
+  background-color: #3b71ca;
+  width: 131%;
+}
+.icon2 
+{
+  margin-left: -50px;
+}
+.h2nav
+{
+  margin-left: -50px;
+
+}
+
+
+}
 
  
 
-.sidenav div
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start sideNav */
+
+
+/* .sidenav div
 {
  
 font-size: 25px;
@@ -39,8 +112,8 @@ overflow-x: hidden;
 
 
 
-}
-.icon2
+} */
+/* .icon2
 {
   margin-top: 50px;
   color: white;
@@ -55,10 +128,10 @@ overflow-x: hidden;
   
   
 
-}
+} */
 
 
-.sidenav h2 
+/* .sidenav h2 
 {
   z-index: -1;
   position: absolute;
@@ -158,11 +231,11 @@ overflow-x: hidden;
   padding-left: 60px;
   padding-right: 10px;
   position: absolute;
-} 
+}   */
 
 
 /*  Start Mediaquery of side nav */
- @media (min-width: 250px) and (max-width: 399px){
+ /* @media (min-width: 250px) and (max-width: 399px){
   .sidenav h2 
 {
   z-index: -1;
@@ -384,7 +457,7 @@ overflow-x: hidden;
   margin-left: 30px;
 }
 
-} 
+}   */
 /* End Mediaquery of side nav */
 
 
@@ -462,18 +535,21 @@ overflow-x: hidden;
 /* End Navbar */
 /* Start Home */
 
+
 .img1 
 {
-    width: 400px;
+    width: 350px;
     margin: 15px;
     position: relative;
     left: 15%;
     top: 45px;
 
 }
+
 .sec1 div
 {
     align-items: center;
+
 }
 .sec1 h3 
 {
@@ -494,8 +570,8 @@ overflow-x: hidden;
 
 .icon1 
 {
-background-color: black; 
-   color: #fff;
+    background-color: black; 
+    color: #fff;
     font-size: 35px;
     margin-right: 35px;
     margin-bottom: 25px;
@@ -505,9 +581,9 @@ background-color: black;
 {
   background-color: #3b71ca;
     position: relative;
-    left: 328px;
-    height: 713px;
-    width: 550px;
+    left: 208px;
+    height: 538px;
+    /* width: 550px; */
     
 }
 .div2
@@ -1009,7 +1085,7 @@ margin-right: 70px;
   {
       width: 300px;
       position: relative;
-      left: -105%;
+      left: -75%;
     
   }
  
@@ -1116,7 +1192,7 @@ margin-left: 10% ;
     {
         width: 300px;
         position: relative;
-        left: -80%;
+        left: -40%;
       
     }
   .div1
@@ -1216,9 +1292,9 @@ margin-left: 10% ;
  
       .img1
   {
-      width: 550px;
+      width: 350px;
       position: relative;
-      left: -60%;
+      left: -30%;
     
   }
   .div1
@@ -1319,29 +1395,42 @@ margin-left: 10% ;
       
       /* 801-999 */
       @media (min-width: 770px) and (max-width: 900px){
+        .navv 
+        {
+          background-color: #3b71ca;
+          position: relative;
+          margin-left: -650px;
+          width: 1790px;
+        }
+        .icon2
+        {
+          position: relative;
+          left: 150%;
+        }
+        .h2nav
+        {
+          position: relative;
+          left: 140%;
+        }
+        
  
         .img1
         {
           
-            
+            width: 300px;
         }
         .div1
         {
-          width: 150px;
+          
           position: relative;
-          left: 15%;
+          left: 390px;
+          height: 700px;
         }
-        .div2
-        {
-          text-align: center;
-          width: 550px;
-          position: relative;
-          left: 40%;
-        }
-        .icon2
+       
+        /* .icon2
         {
           margin-bottom: -10px;
-        }
+        } */
         
          /* about */
         
@@ -1411,19 +1500,30 @@ margin-left: 10% ;
       }
 
         /* special case */
-        @media (min-width: 900px) and (max-width: 990px){
+        @media (min-width: 900px) and (max-width: 991px){
+          .icon2
+          {
+            margin-left: -60px;
+          }
+          .h2nav
+          {
+            margin-left: -60px;
+          }
+
+
+         
           .div1
           {
-            width: 150px;
             position: relative;
-            left: 15%;
+            left: 145px;
+            height: 750px;
           }
           .div2
           {
             /* text-align: center; */
             max-width: 550px;
             position: relative;
-            left: 40%;
+            left: -20px;
           }
           /* about */
           .sec12about div
@@ -1462,6 +1562,27 @@ margin-left: 10% ;
 
     /* Large */
     @media (min-width: 991px) and (max-width: 1120px){
+        .navv 
+        {
+          background-color: #3b71ca;
+          width: 100%;
+        }
+        .icon2 
+        {
+          margin-left: -41px;
+        }
+      .img1
+      {
+        width: 320px;
+      }
+      .div1 
+      {
+        position: relative;
+        left: 50px;
+      }
+
+
+     
     .sec12about div
       {
       padding-right: 11px;
@@ -1515,6 +1636,24 @@ margin-left: 10% ;
       }
       /* 1121-1200 */
       @media (min-width: 1121px) and (max-width: 1200px){
+        .navv 
+        {
+          background-color: #3b71ca;
+          width: 100%;
+        }
+        .icon2 
+        {
+          margin-left: -41px;
+        }
+        .div1
+        {
+          position: relative;
+        
+          left:125px;
+          height: 535px;
+            
+        }
+
 
         .secport span
         {
@@ -1527,14 +1666,54 @@ margin-left: 10% ;
         }
 
         }
-        /* XL */
-        @media (min-width:1300px) {
-          .img1
+
+        /* L */
+        @media (min-width: 1200px) and (max-width: 1399px){
+          .div1
           {
-            
+            position: relative;
+          
+            left: 65px;
+            height: 535px;
               
           }
-        
+        }
+        /* XL */
+        @media (min-width:1400px)and (max-width:1500px) {
+     
+       
+          .img1
+          
+          {
+            width: 300px;
+          }
+          .div1
+          {
+            position: relative;
+          
+            left: 140px;
+            height: 526px;
+              
+          }
+          .navv 
+          {
+            background-color: #3b71ca;
+            width: 100%;
+          }
+          .icon2 
+          {
+            margin-left: -5px;
+          }
 
         }
 
+        /* @media (min-width:1600px){
+          .div1
+          {
+            position: relative;
+          
+            left: 1400px;
+            height: 526px;
+              
+          }
+        } */

@@ -76,6 +76,7 @@
 
 }
 
+
  
 
 
@@ -1076,7 +1077,22 @@ margin-right: 70px;
 
 /* small */
 @media (min-width: 250px) and (max-width: 399px){
+  .navlinks a
+  {
+    display: flex;
+    margin-left: -180px;
+  }
+  .navlinks
+  {
+    position: relative;
+    left: 40px;
+  }
+  .h2nav 
+  {
+    margin-left: -70px;
+  }
   .spanhome
+  
   {
    font-size: 12px;
     
@@ -1182,6 +1198,11 @@ margin-left: 10% ;
   }
   /* medium */
   @media (min-width: 400px) and (max-width: 500px){
+    .navlinks a
+    {
+      display: flex;
+      margin-left: -50px;
+    }
  
     .spanhome
     {
@@ -1289,6 +1310,11 @@ margin-left: 10% ;
     }
     /* 501-800 */
     @media (min-width: 501px) and (max-width: 769px){
+      .navlinks a
+      {
+        display: flex;
+        margin-left: -50px;
+      }
  
       .img1
   {
